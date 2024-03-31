@@ -28,10 +28,10 @@ custoviagem= float(litros * valorlitro)
 desempenholitro= distancia/ litros
 desempenhocusto= custoviagem / distancia
 
-print(f'{'-'*20} DADOS DA VIAGEM {'-'*20}')
+print(f'{'-'*25} DADOS DA VIAGEM {'-'*25}')
 print(f'O tempo dessa viagem e {tempototal :.0f}  segundos')
 print(f'A velocidade media global {vel_mediaglobal: .2f} km/h')
 print(f'A velocidade media de movimento {vel_media: .1f} km/h ')
 print(f'o custo da viagem com combusitel e {custoviagem: .1f} R$ reais')
-print(f'{'-'*20} DESEMPENHO DO CARRO {'-'*20}')
+print(f'{'-'*25} DESEMPENHO DO CARRO {'-'*25}')
 print(f' o desempenho do carro  e {desempenholitro: .1f}km por litro de gasolina \n o  desempenho do carro em Reais por km rodado e {desempenhocusto: .2f} Reais')
