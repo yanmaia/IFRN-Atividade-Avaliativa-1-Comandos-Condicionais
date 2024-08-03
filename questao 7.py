@@ -7,7 +7,7 @@ if l1 + l2 <= l3 or l1 + l3 <= l2  or l2 + l3 <= l1:  #checagem para saber se e 
     print (  'Não e possivel formar  um triângulo com esses lados')
     sys.exit()
 
-print(f'{'-'*25}Classificação  do triângulo por lado {'-'*25}')
+print(f"{'-'*25}Classificação  do triângulo por lado {'-'*25}")
  
  #verificação por lado do triangulo
 if (l1 == l2 ==l3):    #Equilatero
@@ -28,7 +28,7 @@ graus_a = math.degrees(rad_a)
 graus_b = math.degrees(rad_b)
 graus_c = math.degrees(rad_c)
 
-print(f'{'-'*25}Classificação do triângulo pelos angulos {'-'*25}')
+print(f"{'-'*25}Classificação do triângulo pelos angulos {'-'*25}")
  
 #verificaçao graus
 if graus_a < 90  and graus_b < 90 and  graus_c < 90: #acutangulo
